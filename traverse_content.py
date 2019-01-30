@@ -5,8 +5,9 @@ def traverse(directory):
     mylist = list()
     for files in os.listdir(directory):
         mylist.append(files)
-    
-    print(mylist)
+    new_list = mylist
+     
+    print(new_list[::-1])
 
 
 
